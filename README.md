@@ -1,5 +1,5 @@
 # Volatility-Informed Machine Learning and Technical Indicators for Multi-Asset Trading Signal Evaluation
-**Author:** Yiwen Chan 
+**Author:** Yiwen Chan <br>
 **Programme – MSc Banking and Digital Finance**  
 
 
@@ -15,7 +15,6 @@ The project investigates the predictive power of technical indicators (Bollinger
 
 All analysis for each asset is contained in a **single, self-contained Jupyter Notebook**, making the workflow easy to run.
 
----
 
 ## Table of Contents
 - [Notebooks](#notebooks)
@@ -27,7 +26,6 @@ All analysis for each asset is contained in a **single, self-contained Jupyter N
 - [License](#license)
 
 
----
 
 ## Notebooks
 
@@ -52,7 +50,6 @@ Each notebook includes:
 
 > **Note:** Notebooks are self-contained per asset. Running all cells sequentially will reproduce all results.  
 
----
 
 ## Features
 - Multi-asset support
@@ -71,7 +68,6 @@ Each notebook includes:
 - **Permutation Testing**: Robust evaluation of model performance (return permutation & Signal permutation )
 - **Self-contained Workflow**: Each notebook can run independently for one asset  
 
----
 
 ## Usage
 1. Open the notebook you want to run
@@ -89,7 +85,7 @@ Each notebook includes:
 
 > **Switching Assets:** To analyze a different asset, open the corresponding notebook. Each notebook is self-contained for a single asset.
 
----
+
 
 ## Dataset Information
 - Historical asset data and risk-free rate is downloaded via **Yahoo Finance** using `yfinance` and `pandas_datareader`
@@ -97,13 +93,10 @@ Each notebook includes:
 - Time Range: 2004-01-01 to 2024-12-31
 - Frequency: Daily
 
----
 
 ## Environment
-- All notebooks were developed and executed in **Google Colab**, , so local installation is not strictly required.
+- All notebooks were developed and executed in **Google Colab**, so local installation is not strictly required.
 
-
----
 
 ## Reproductivity Note
 
@@ -121,8 +114,6 @@ These files reflect the exact outputs used in the dissertation, even if live run
 >**Note:** When running the notebooks, outputs will be displayed in the notebook and basic CSV files and visualization plot may be generated in the working directory, but they will not automatically save to the`Data/` or `Results/` folders. These files are provided for verification of the dissertation findings.
 
 
-
----
-
 ## License
+
 This project is part of an MSc dissertation and intended for academic purposes only.

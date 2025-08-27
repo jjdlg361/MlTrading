@@ -69,6 +69,7 @@ Each notebook includes:
 - **Permutation Testing**: Robust evaluation of model performance (return permutation & Signal permutation )
 - **Self-contained Workflow**: Each notebook can run independently for one asset  
 
+<br>
 
 ## Usage
 1. Open the notebook you want to run
@@ -121,4 +122,5 @@ These files reflect the exact outputs used in the dissertation, even if live run
 ## License
 
 This project is part of an MSc dissertation and intended for academic purposes only.
+
 

@@ -1,6 +1,6 @@
 # Volatility-Informed Machine Learning and Technical Indicators for Multi-Asset Trading Signal Evaluation
 **Author:** Yiwen Chan <br>
-**Programme – MSc Banking and Digital Finance**  
+**Programme:** MSc Banking and Digital Finance
 
 
 ---
@@ -50,6 +50,7 @@ Each notebook includes:
 
 > **Note:** Notebooks are self-contained per asset. Running all cells sequentially will reproduce all results.  
 
+<br>
 
 ## Features
 - Multi-asset support
@@ -85,7 +86,7 @@ Each notebook includes:
 
 > **Switching Assets:** To analyze a different asset, open the corresponding notebook. Each notebook is self-contained for a single asset.
 
-
+<br>
 
 ## Dataset Information
 - Historical asset data and risk-free rate is downloaded via **Yahoo Finance** using `yfinance` and `pandas_datareader`
@@ -93,10 +94,12 @@ Each notebook includes:
 - Time Range: 2004-01-01 to 2024-12-31
 - Frequency: Daily
 
+<br>
 
 ## Environment
 - All notebooks were developed and executed in **Google Colab**, so local installation is not strictly required.
 
+<br>
 
 ## Reproductivity Note
 
@@ -113,7 +116,9 @@ These files reflect the exact outputs used in the dissertation, even if live run
 
 >**Note:** When running the notebooks, outputs will be displayed in the notebook and basic CSV files and visualization plot may be generated in the working directory, but they will not automatically save to the`Data/` or `Results/` folders. These files are provided for verification of the dissertation findings.
 
+<br>
 
 ## License
 
 This project is part of an MSc dissertation and intended for academic purposes only.
+
